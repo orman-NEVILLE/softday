@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #2d4ba3;         
+    --secondary-color: #E5F9FF;       
+    --background-color: #f4f4f4;     
+    --text-color: #333333;            
+    --font-family: 'Arial', sans-serif; 
+    --font-size: 16px;
+    --subtitle : 24pt;                
+    --line-height: 1.6;   
+    --box-shadow : 0px 0px 10px 0px rgba(0,0,0,0.1);            
+}
+
+.articles .line{
+    margin: 30px;
+    display: flex;
+    gap: 30px;
+    background: var(--secondary-color);
+    padding: 40px;
+    border-radius: 20px;
+    padding-bottom: -40px;
+}
